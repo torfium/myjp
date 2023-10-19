@@ -45,6 +45,5 @@
             </Grid>
         </Border>
         <Image Margin="63,148,63,200" Source="/view/pages/images/Image5.png" Stretch="Fill"/>
-        <Image Margin="0,0,343,392" Source="/Image1.png" Stretch="Fill"/>
     </Grid>
 </Page>

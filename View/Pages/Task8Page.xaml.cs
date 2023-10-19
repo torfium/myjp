@@ -27,7 +27,15 @@ namespace AAAAAAAAAAAA_SLOMALI.View.Pages
 
         private void BtnAnswer_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"T = {Math.Sqrt(Math.Abs(6 * Math.Pow(Convert.ToDouble(TbY.Text), 2) - 0.1 * Convert.ToDouble(TbY.Text) + 4))}");
+            try
+            {
+                MessageBox.Show($"T = {Math.Sqrt(Math.Abs(6 * Math.Pow(Convert.ToDouble(TbY.Text), 2) - 0.1 * Convert.ToDouble(TbY.Text) + 4))}");
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show($"Неправильно, попробуй ещё раз!");
+            }
         }
     }
 }
