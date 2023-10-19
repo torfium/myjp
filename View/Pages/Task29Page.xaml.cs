@@ -24,5 +24,10 @@ namespace AAAAAAAAAAAA_SLOMALI.View.Pages
         {
             InitializeComponent();
         }
+
+        private void BtnAnswer_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show($"N = {3 * Math.Pow(Convert.ToDouble(TbY), 2) + Math.Sqrt(Math.Abs(Convert.ToDouble(TbY) + 1))}");
+        }
     }
 }

@@ -28,7 +28,9 @@ namespace AAAAAAAAAAAA_SLOMALI.View.Pages
 
         private void BtnAnswer_Click(object sender, RoutedEventArgs e)
         {
+
             MessageBox.Show($"L = {1.51 * Math.Cos(Math.Pow(Convert.ToDouble(TbX.Text), 2)) + 2 * Math.Pow(Convert.ToDouble(TbX.Text), 3)}");
+
         }
     }
 }

@@ -16,7 +16,15 @@ namespace AAAAAAAAAAAA_SLOMALI.View.Pages
 
         private void BtnAnswer_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"Короче W= {Math.Exp(Convert.ToDouble(TbY.Text) + Convert.ToDouble(TbR.Text)) + 7.2 * Math.Sin(Convert.ToDouble(TbR.Text))}");
+            try
+            {
+                MessageBox.Show($"Короче W= {Math.Exp(Convert.ToDouble(TbY.Text) + Convert.ToDouble(TbR.Text)) + 7.2 * Math.Sin(Convert.ToDouble(TbR.Text))}");
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show($"Неправильно, попробуй ещё раз!");
+            }
         }
     }
 }
