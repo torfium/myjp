@@ -26,17 +26,17 @@
                 <StackPanel HorizontalAlignment="Center"
                             VerticalAlignment="Center">
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Add t = "/>
+                        <TextBlock Text="Add y = "/>
                         <TextBox Width="50"
-                                 x:Name="TbT"/>
+                                 x:Name="TbY"/>
                     </StackPanel>
 
                     <StackPanel Orientation="Horizontal"
                                 Margin="0 5 0 0">
-                        <TextBlock Text="Add l = "/>
+                        <TextBlock Text="Add f = "/>
                         <TextBox Width="50"
                                  Margin="1"
-                                 x:Name="TbL"/>
+                                 x:Name="TbF"/>
                     </StackPanel>
 
                     <Button Content="Ответ"

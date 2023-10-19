@@ -4,11 +4,45 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:AAAAAAAAAAAA_SLOMALI.View.Pages"
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="Task24Page">
+            mc:Ignorable="d" 
+      Title="Task1Page" Height="430" Width="711">
+    <Grid Background="LightGreen">
 
-    <Grid>
-        
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Margin="0 10 0 0">
+            <TextBlock Text="Задание № 24"
+                       Foreground="White"
+                       FontSize="26"/>
+        </StackPanel>
+        <Border HorizontalAlignment="Center"
+                VerticalAlignment="Bottom"
+                Height="109"
+                Width="592"
+                Margin="0,0,0,25"
+                CornerRadius="15"
+                Background="White">
+            <Grid>
+                <StackPanel HorizontalAlignment="Center"
+                            VerticalAlignment="Center">
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Add y = "/>
+                        <TextBox Width="50"
+                                 Margin="1"
+                                 x:Name="TbY"/>
+                    </StackPanel>
+
+                    <Button Content="Ответ"
+                            x:Name="BtnAnswer"
+                            Click="BtnAnswer_Click"
+                            Margin="0 15 0 0"
+                            Foreground="Black"
+                            BorderBrush="LightGreen"
+                            Background="Transparent"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+        <Image Margin="63,148,63,200" Source="/view/pages/images/Image24.png" Stretch="Fill"/>
     </Grid>
 </Page>

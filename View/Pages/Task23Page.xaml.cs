@@ -27,7 +27,7 @@ namespace AAAAAAAAAAAA_SLOMALI.View.Pages
 
         private void BtnAnswer_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show($"G = {Math.Exp(2 * Convert.ToDouble(TbY.Text)) + Math.Sin(Convert.ToDouble(TbF.Text))}");
         }
     }
 }

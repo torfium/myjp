@@ -24,5 +24,10 @@ namespace AAAAAAAAAAAA_SLOMALI.View.Pages
         {
             InitializeComponent();
         }
+
+        private void BtnAnswer_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show($"F = { + 2 * Math.Sin(0.214 * Math.Pow(Convert.ToDouble(TbY.Text), 2) + 1)}");
+        }
     }
 }
