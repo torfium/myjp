@@ -35,8 +35,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ReachFramework" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Printing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -143,6 +145,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Pages\Task307Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Pages\Task30Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -176,6 +182,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Pages\Task9Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Pages\Page201.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -254,6 +264,9 @@
     <Compile Include="View\Pages\Task2Page.xaml.cs">
       <DependentUpon>Task2Page.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Pages\Task307Page.xaml.cs">
+      <DependentUpon>Task307Page.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Pages\Task30Page.xaml.cs">
       <DependentUpon>Task30Page.xaml</DependentUpon>
     </Compile>
@@ -280,6 +293,9 @@
     </Compile>
     <Compile Include="View\Pages\Task9Page.xaml.cs">
       <DependentUpon>Task9Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pages\Page201.xaml.cs">
+      <DependentUpon>Page201.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Windows\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
