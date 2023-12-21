@@ -358,7 +358,14 @@
                                     Foreground="Black"
                                     Cursor="Hand"/>
 
-
+                            <Button Content="Task1002"
+                                    x:Name="BtnTask1002"
+                                    Click="BtnTask1002_Click"
+                                    Background="Transparent"
+                                    BorderBrush="DarkGreen"
+                                    Foreground="Black"
+                                    Cursor="Hand"/>
+                            
                         </StackPanel>
                     </ScrollViewer>
                 </Grid>

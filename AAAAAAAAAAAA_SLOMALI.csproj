@@ -61,6 +61,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Pages\Task1002Page.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Pages\Task10Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -204,6 +208,9 @@
     <Compile Include="Core\MainNavigationCoreFrame.cs" />
     <Compile Include="View\Pages\Task1001Page.xaml.cs">
       <DependentUpon>Task1001Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pages\Task1002Page.xaml.cs">
+      <DependentUpon>Task1002Page.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Pages\Task10Page.xaml.cs">
       <DependentUpon>Task10Page.xaml</DependentUpon>
