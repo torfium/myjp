@@ -167,5 +167,10 @@ namespace AAAAAAAAAAAA_SLOMALI
         {
             MainNavigationCoreFrame.MyFrame.Navigate(new Task31Page());
         }
+
+        private void BtnTask1001_Click(object sender, RoutedEventArgs e)
+        {
+            MainNavigationCoreFrame.MyFrame.Navigate(new Task1001Page());
+        }
     }
 }

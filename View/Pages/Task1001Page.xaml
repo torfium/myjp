@@ -1,0 +1,28 @@
+﻿<Page x:Class="AAAAAAAAAAAA_SLOMALI.View.Pages.Task1001Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AAAAAAAAAAAA_SLOMALI.View.Pages"
+      mc:Ignorable="d" 
+      Title="Task1Page" Height="430" Width="711">
+    <Grid Background="LightGreen">
+
+          
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"
+                            Background="White">
+                    <TextBlock Text="Введите массив символов из 17 элементов, содержащий два или более слов, разделенных пробелами:" />
+                    <TextBox x:Name="inputTextBox"
+                             Width="300" 
+                             Margin="0,10" />
+                    <Button Content="Поменять местами" 
+                            Width="100" Click="SwapButton_Click" 
+                            Foreground="Black"
+                            BorderBrush="LightGreen"
+                            Background="Transparent"/>
+                    <TextBlock Text="Результат:" Margin="260,10,0,0" />
+                    <TextBlock x:Name="resultTextBlock" Width="300" TextWrapping="Wrap" />
+                </StackPanel>
+
+        </Grid>
+</Page>

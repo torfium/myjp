@@ -347,6 +347,17 @@
                                 Margin="0 5 0 0">
                             </Button>
 
+                            <TextBlock Margin="0 5 0 0"
+                                       Text="Индивидуальне"/>
+
+                            <Button Content="Task1001"
+                                    x:Name="BtnTask1001"
+                                    Click="BtnTask1001_Click"
+                                    Background="Transparent"
+                                    BorderBrush="DarkGreen"
+                                    Foreground="Black"
+                                    Cursor="Hand"/>
+
 
                         </StackPanel>
                     </ScrollViewer>
